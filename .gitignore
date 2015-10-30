@@ -1,5 +1,4 @@
 .DS_Store
 *.pyc
 settings_local.py
-*.txt
 *.csv
