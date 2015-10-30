@@ -1,0 +1,8 @@
+from settings_local import (
+    SHORT_NAME, FULL_NAME, CONTACT_EMAIL, ADMIN_EMAIL, SIGNATURE, EXCEPTIONS,
+    REMOVAL_EXPLANATION)
+
+
+EXCEPTIONS = [line.strip() for line in EXCEPTIONS.splitlines()]
+
+REMOVAL_EXPLANATION = REMOVAL_EXPLANATION.strip()
