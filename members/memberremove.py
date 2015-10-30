@@ -40,7 +40,7 @@ class MemberRemover(object):
 
 
 def get_profile():
-    profile_dir = op.expanduser('~/Library/Application Support/Firefox/Profiles'
+    profile_dir = op.expanduser('~/Library/Application Support/Firefox/Profiles')
     for profile in os.listdir(profile_dir):
         if 'meetup' in profile:
             profile_path = op.join(profile_dir, profile)
